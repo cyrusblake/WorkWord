@@ -7,7 +7,7 @@ export default function Login() {
             <div className='login-container'>
                 <div className='login-logo'>WorkWord</div>
                 <div className='create-account-container'>
-                    <Link to="/CreateAccount">
+                    <Link to="/Signup">
                         <button className='get-started-button'>Get Started</button>
                     </Link>
                 </div>
@@ -21,11 +21,11 @@ export default function Login() {
                 </div>
                 <div className='create-account-container'>
                     
-                    <p>
+                    {/* <p>
                         <Link to="/Signup">
                             Create an account
                         </Link>
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </>

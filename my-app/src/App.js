@@ -5,7 +5,8 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import CreateAccount from './pages/CreateAccount';
 import './App.css';
-import Signup from './pages/Signup';
+import SigninAccount from './pages/SigninAccount';
+
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
               <Route path='Home' element={<Home />} />
               <Route path='Profile' element={<Profile />} />
               <Route path='CreateAccount' element={<CreateAccount />} />
-              <Route path='Signup' element={<Signup/>} />
+              <Route path='SigninAccount' element={<SigninAccount/>} />
           </Routes>
         </BrowserRouter>
       </div>
